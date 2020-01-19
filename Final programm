@@ -16,8 +16,8 @@ tiles_group = pygame.sprite.Group()
 portal_group = pygame.sprite.Group()
 player_group = pygame.sprite.Group()
 mob_group = pygame.sprite.Group()
-d_borders = pygame.sprite.Group()
-u_borders = pygame.sprite.Group()
+d_borders = pygame.sprite.Group() # down_borders
+u_borders = pygame.sprite.Group() # up_borders
 vertical_borders = pygame.sprite.Group()
 pygame.key.set_repeat(1, 50)
 levels = ['level1.txt', 'level2.txt', 'level3.txt', 'level4.txt', 'level5.txt']
